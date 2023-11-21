@@ -1,0 +1,33 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture Buying Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Picture Buying Portal</h1>
+
+    <div class="pictures-container" id="picturesContainer">
+      <!-- Pictures will be dynamically added here -->
+    </div>
+
+    <div class="cart" id="cart">
+      <h2>Shopping Cart</h2>
+      <div id="cartItems">
+        <!-- Cart items will be dynamically added here -->
+      </div>
+      <p id="total">Total: $0</p>
+      <button onclick="pay()">Pay</button>
+      <button onclick="clearCart()">Clear Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
